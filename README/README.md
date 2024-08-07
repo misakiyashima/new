@@ -52,4 +52,13 @@
 ■ 機能の実装方針予定
 一般的なCRUD以外の実装予定の機能についてそれぞれどのようなイメージ(使用するAPIや)で実装する予定なのか現状考えているもので良いので教えて下さい。
 
-→位置情報検索機能：google maps API
+→API：〇宿泊施設の情報を取得
+　　　　1. じゃらんWebサービス
+　　　　2. 楽天トラベルAPI
+　　　　3. Expedia API
+　　　　4. Booking.com API
+　　　〇位置情報検索の際に位置情報を取得
+　　　　５. google maps API　
+→バックエンド：Ruby on rails
+→フロントエンド:HotWire
+→データベース：My SQL　(またはPostgreSQL Elasticsearch）
